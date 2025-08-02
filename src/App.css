@@ -1,0 +1,61 @@
+.main-nav {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+#navlink {
+    font-size: 20px;
+    border-radius: 6px;
+    opacity: 80%;
+}
+
+#navlink:hover {
+    border: 1px solid black;
+    opacity: 100%;
+}
+
+#nav-text {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+#cont {
+    justify-content: space-between;
+}
+
+.nav-link.active-link {
+    color: blue;
+}
+
+#cont-2 {
+    background-color: rgb(194, 192, 189);
+    width: 100%;
+    height: 620px;
+}
+
+#inner-cont {
+    background-color: #f0f0f0;
+    height: 610px;
+}
+
+.user-text {
+    text-align: center;
+
+}
+
+.main-table{
+    border: 2px solid rgb(81, 79, 79);
+    border-radius: 50px;
+    width: 100%;
+}
+.row-1{
+    border: 1px solid black;
+    border-radius: 10%;
+}
+#main-products{
+    background-color: #d5d5d5;
+    border: 1px solid transparent;
+    border-radius: 15px;
+}
