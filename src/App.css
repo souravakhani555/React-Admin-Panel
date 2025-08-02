@@ -59,3 +59,23 @@
     border: 1px solid transparent;
     border-radius: 15px;
 }
+#home-cont{
+    background-color: #d5d5d5;
+    height: 500px;
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#home-text{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    animation-name: hometext;
+    animation-duration: 3s;
+}
+@keyframes hometext{
+    0%{margin-top: 5em; opacity: 60%;}
+    100%{margin-top: 0em; opacity: 100%;}
+}
+

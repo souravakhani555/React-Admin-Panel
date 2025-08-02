@@ -18,7 +18,7 @@ const Navbyme = () => {
           <Navbar.Collapse id="basic-navbar-nav">
 
             <Nav className="me-auto">
-              <Nav.Link as={NavLink} to="/user" id='navlink'>Users</Nav.Link>
+              <Nav.Link as={NavLink} to="/user" id='navlink' >Users</Nav.Link>
               <Nav.Link as={NavLink} to="/products" id='navlink'>Products</Nav.Link>
               <Nav.Link as={NavLink} to="/orders" id='navlink'>Orders</Nav.Link>
             </Nav>
